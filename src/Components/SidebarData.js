@@ -1,43 +1,44 @@
 import React from "react";
 import PersonIcon from '@mui/icons-material/Person';
-import LocalShippingIcon from '@mui/icons-material/LocalShipping';
-import EvStationIcon from '@mui/icons-material/EvStation';
-import PrecisionManufacturingIcon from '@mui/icons-material/PrecisionManufacturing';
-import LocalOfferIcon from '@mui/icons-material/LocalOffer';
-import LocalActivityIcon from '@mui/icons-material/LocalActivity';
+import DashboardIcon from '@mui/icons-material/Dashboard';
+import PaidIcon from '@mui/icons-material/Paid';
+import EventAvailableIcon from '@mui/icons-material/EventAvailable';
+import SettingsIcon from '@mui/icons-material/Settings';
 
 
 
 
 export const SidebarData = [
     {
+        title:'Dashboard',
+        icon:<DashboardIcon/>,
+        link:"/home"
+    },
+    {
+        title:'Transactions',
+        icon:<PaidIcon/>,
+        link:"/home"
+    },
+    {
+        title:'Schedules',
+        icon:<EventAvailableIcon/>,
+        link:"/home"
+    },
+    {
         title:'Users',
         icon:<PersonIcon/>,
         link:"/home"
     },
     {
-        title:'Vehicles',
-        icon:<LocalShippingIcon/>,
+        title:'Settings',
+        icon:<SettingsIcon/>,
         link:"/home"
     },
     {
-        title:'Charging Station',
-        icon:<EvStationIcon/>,
+        title:'Help',
         link:"/home"
     },
     {
-        title:'Machine',
-        icon:<PrecisionManufacturingIcon/>,
-        link:"/home"
-    },
-    {
-        title:'Offer',
-        icon:<LocalOfferIcon/>,
-        link:"/home"
-    },
-    {
-        title:'Amenity',
-        icon:<LocalActivityIcon/>,
-        link:"/home"
-    },
+        title:'Conatct us'
+    }
 ];

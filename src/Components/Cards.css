@@ -1,0 +1,44 @@
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-left: 260px;
+  }
+  
+  .card {
+    width: 150px;
+    height: 100px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    
+  }
+  
+  .card-icon {
+    margin-bottom: 20px;
+    margin-left:100px;
+  }
+  
+  .card-content h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin:auto;
+  }
+  
+  .card-content p {
+    font-size: 14px;
+  }
+
+  #card1{
+    background-color: rgb(155, 223, 200);
+  }
+  #card2{
+    background-color: rgb(156, 156, 226);
+  }
+  #card3{
+    background-color: rgb(204, 141, 126);
+  }
+  #card4{
+    background-color: rgb(89, 192, 151);
+  }
+  

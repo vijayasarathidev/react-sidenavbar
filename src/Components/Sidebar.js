@@ -5,10 +5,12 @@ import { SidebarData } from "./SidebarData";
 
 function Sidebar(sidebar) {
     return<div className={sidebar?"sidebar sidebar--open":"sidebar"}>
+        <h1 className="heading">Board.</h1>
         <ul className="SidebarList">
         {SidebarData.map((val, key) => {
         return (
             // eslint-disable-next-line eqeqeq
+            
             <li key={key} className="row" id={window.location.pathname == val.link ? "active" : "" } onClick={()=>{window.location.pathname = val.link}}>
                 {" "}
                 <div id="icon">{val.icon}</div>{""}
