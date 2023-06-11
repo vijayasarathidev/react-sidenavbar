@@ -5,7 +5,8 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import Sidebar from './Sidebar';
 import Card from './Cards';
 import FinalChart from './FinalChart';
-const Dashboard = () => {
+import Meeting from './meetingCard';
+const Dashboard =  () => {
   return (
     <div>
       <Sidebar/>
@@ -21,6 +22,9 @@ const Dashboard = () => {
     </nav>
     <Card/>
     <FinalChart/>
+    <Meeting/>
+   
+    
     </div>
   );
 };

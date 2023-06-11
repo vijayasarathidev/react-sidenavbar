@@ -4,7 +4,8 @@ import { Chart as ChartJS } from "chart.js/auto";
 
 function Piechart({ chartData }) {
   
-  return <div className="Pie"><Pie data={chartData} /></div>
+  return <div className="Pie"><Pie data={chartData} />
+  </div>
 }
 
 export default Piechart;
