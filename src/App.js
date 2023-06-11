@@ -1,24 +1,20 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Sidebar from './Components/Sidebar';
-import Card from './Components/Cards';
+import './App.css';
 import Login from './Components/Login';
 import Dashboard from './Components/Dashboard';
-import './App.css';
+const App =()=> {
 
 const App = () => {
   return (
-    <Router>
-      <div className="App">
-        <Sidebar />
+      <Router>
         <Routes>
-          <Route path="/" element={<Login />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/card" element={<Card />} />
+          <Route path="/" element={<Login />} />
         </Routes>
-      </div>
-    </Router>
-  );
+      </Router>
+    );
 }
 
 export default App;
