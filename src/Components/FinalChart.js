@@ -3,6 +3,7 @@ import LineChart from "./LineChart";
 import PieChart from "./PieChart";
 import { UserData } from "./Data";
 import "./FinalChart.css";
+import MeetingCard from "./MeetingCard"
 
 function Finalchart() {
   const [userData, setUserData] = useState({
@@ -27,12 +28,11 @@ function Finalchart() {
 
   return (
     <div className="App"> 
-      <div  className="line">
         <LineChart chartData={userData} />
-      </div>
-      <div  className="pie">
+        <div className="final-container">
         <PieChart chartData={userData} />
-      </div>
+        <MeetingCard/>
+        </div>
     </div>
   )
 }

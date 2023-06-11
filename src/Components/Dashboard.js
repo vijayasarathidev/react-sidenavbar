@@ -5,6 +5,7 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import Sidebar from './Sidebar';
 import Card from './Cards';
 import FinalChart from './FinalChart';
+
 const Dashboard = () => {
   return (
     <div>
