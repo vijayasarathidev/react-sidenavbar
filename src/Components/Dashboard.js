@@ -2,8 +2,12 @@ import React from 'react';
 import './Navbar.css';
 import { Avatar } from '@mui/material'; // Create a CSS file named Navbar.css for styling
 import NotificationsIcon from '@mui/icons-material/Notifications';
-const Navbar = () => {
+import Sidebar from './Sidebar';
+import Card from './Cards';
+const Dashboard = () => {
   return (
+    <div>
+      <Sidebar/>
     <nav className="navbar">
       <div className="navbar-logo">Dashboard</div>
       <div className="navbar-search">
@@ -14,7 +18,9 @@ const Navbar = () => {
         <Avatar className='navbar-avatar'/>
       </div>
     </nav>
+    <Card/>
+    </div>
   );
 };
 
-export default Navbar;
+export default Dashboard;

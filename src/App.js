@@ -1,19 +1,18 @@
-//import MenuAppBar from './Components/Navbar';
-import Sidebar from './Components/Sidebar';
-import Navbar from './Components/Dashboard';
-import Card from './Components/Cards';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Login from './Components/Login';
+import Dashboard from './Components/Dashboard';
 const App =()=> {
 
   return (
-    <div className="App">
-      <Sidebar/>
-      <Navbar/>
-      <Card/>
-      
-      
-    </div>
-  );
+      <Router>
+        <Routes>
+          <Route path="/login" element={<Login />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/" element={<Login />} />
+        </Routes>
+      </Router>
+    );
 }
 
 export default App;
