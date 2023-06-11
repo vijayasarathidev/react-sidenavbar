@@ -4,10 +4,7 @@ import DashboardIcon from '@mui/icons-material/Dashboard';
 import PaidIcon from '@mui/icons-material/Paid';
 import EventAvailableIcon from '@mui/icons-material/EventAvailable';
 import SettingsIcon from '@mui/icons-material/Settings';
-
-
-
-
+import "./Sidebar.css"
 export const SidebarData = [
     {
         title:'Dashboard',

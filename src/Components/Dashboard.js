@@ -1,6 +1,6 @@
 import React from 'react';
-import './Navbar.css';
-import { Avatar } from '@mui/material'; // Create a CSS file named Navbar.css for styling
+import './Dashbord.css';
+import { Avatar } from '@mui/material'; 
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import Sidebar from './Sidebar';
 import Card from './Cards';
