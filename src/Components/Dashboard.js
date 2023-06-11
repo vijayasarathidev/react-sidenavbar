@@ -4,6 +4,7 @@ import { Avatar } from '@mui/material';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import Sidebar from './Sidebar';
 import Card from './Cards';
+import FinalChart from './FinalChart';
 const Dashboard = () => {
   return (
     <div>
@@ -19,6 +20,7 @@ const Dashboard = () => {
       </div>
     </nav>
     <Card/>
+    <FinalChart/>
     </div>
   );
 };

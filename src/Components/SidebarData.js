@@ -31,11 +31,5 @@ export const SidebarData = [
         icon:<SettingsIcon/>,
         link:"/home"
     },
-    {
-        title:'Help',
-        link:"/home"
-    },
-    {
-        title:'Conatct us'
-    }
+    
 ];

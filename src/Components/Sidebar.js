@@ -19,6 +19,10 @@ function Sidebar(sidebar) {
         )
     })}
     </ul>
+    <div className="foot">
+        <h4>Help</h4>
+        <h4>Contact us</h4>
+        </div>
     </div>
 }
  export default Sidebar;

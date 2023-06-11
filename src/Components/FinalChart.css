@@ -1,0 +1,22 @@
+
+
+.line {
+    width: 50%;
+    height: 30%;
+    margin-left: 330px;
+}
+
+.pie{
+    width: 20%;
+    margin-left: 330px;
+}
+.Line{
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.Pie{
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-top: 150px;
+}
