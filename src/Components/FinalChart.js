@@ -1,6 +1,6 @@
 import { useState } from "react";
-import LineChart from "./LineChart";
-import PieChart from "./PieChart";
+import LineChart from "./lineChart";
+import PieChart from "./pieChart";
 import { UserData } from "./Data";
 import "./FinalChart.css";
 
@@ -23,8 +23,6 @@ function Finalchart() {
       },
     ],
   });
-
-
   return (
     <div className="App"> 
       <div  className="line">
@@ -32,7 +30,11 @@ function Finalchart() {
       </div>
       <div  className="pie">
         <PieChart chartData={userData} />
+        
+     
       </div>
+ 
+      
     </div>
   )
 }
