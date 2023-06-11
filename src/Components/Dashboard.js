@@ -1,8 +1,8 @@
 import React from 'react';
-import './Navbar.css';
-import { Avatar } from '@mui/material'; // Create a CSS file named Navbar.css for styling
+import './Dashbord.css';
+import { Avatar } from '@mui/material'; 
 import NotificationsIcon from '@mui/icons-material/Notifications';
-const Navbar = () => {
+const Dashboard = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">Dashboard</div>
@@ -17,4 +17,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Dashboard;

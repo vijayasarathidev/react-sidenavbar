@@ -1,18 +1,23 @@
-//import MenuAppBar from './Components/Navbar';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Sidebar from './Components/Sidebar';
-import Navbar from './Components/Dashboard';
 import Card from './Components/Cards';
+import Login from './Components/Login';
+import Dashboard from './Components/Dashboard';
 import './App.css';
-const App =()=> {
 
+const App = () => {
   return (
-    <div className="App">
-      <Sidebar/>
-      <Navbar/>
-      <Card/>
-      
-      
-    </div>
+    <Router>
+      <div className="App">
+        <Sidebar />
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/card" element={<Card />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
